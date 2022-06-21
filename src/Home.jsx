@@ -11,16 +11,18 @@ const Home = () => {
         <h2>Hi my name is Ulan </h2>
         <div className="prompt">
           <p>
-            I'm a student at 55th school.As soon as possible I want to be middle
-            or even junior web developer. I've been doing web development since
-            May in 2022. I can be called Jr HTML\CSS developer but in future I
-            will be called a JS developer. In addition i have big dream in heart
-            in this industry and i think i will get it. If you ask me Why IT and
-            Why exactly web developing here my answer-it has a lot of great
-            interesting things. Also I am a candidate of master of sport of
-            Grappling. I love sports so much like voleyball,cycling,mma and
-            grappling. I'm not afraid of big changes and open to new ideas.
+            I'm a student at 55th school.As soon as possible I'm going to be
+            junior web developer. I've been doing web development since May in
+            2022. Now i'am learning these precious and interesting things as
+            HTML\CSS, JS language and React framework and trying create amazing
+            projects like this website) In addition i have big dream, not just a
+            dream but goal in this industry and i think i will get it. If you
+            ask me Why IT and Why exactly web developing here my answer-it has a
+            lot of great interesting things. I love sports so much like
+            voleyball,cycling,MMA and grappling. I'm not afraid of big changes
+            and open to new ideas.
           </p>
+          <h4>Жырга</h4>
           <div id="icons">
             <EmailIcon />
             <GitlIcon />
@@ -29,6 +31,12 @@ const Home = () => {
         </div>
       </div>
       <div className="skills">
+        <img
+          style={{ borderRadius: "90px", marginTop: "45px" }}
+          // src="http://weeek.net/uploads/blog/683d3857eb802a86b3622c4dc88ee9fc.png"
+          src="https://institute.careerguide.com/wp-content/uploads/2020/11/coach-goodhabitz-wevoke-dribbble-01.gif"
+          alt="Image"
+        />
         <h1>Skills</h1>
         <div className="list">
           <span className="item">

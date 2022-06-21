@@ -1,13 +1,23 @@
 .navbar {
+  padding-top: 0vh;
   width: 100%;
   height: 100px;
-  background-color: rgb(37, 30, 159);
+  /* background-color: rgb(37, 30, 159); */
+  /* background-image: url("https://img.freepik.com/free-photo/studio-background-concept-abstract-empty-light-gradient-purple-studio-room-background-product-plain-studio-background_1258-63900.jpg?w=2000"); */
+}
+.avatar {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
 }
 .navbar a {
   text-decoration: none;
   font-size: 20px;
   color: aliceblue;
   padding: 0 10px;
+}
+.links a:hover {
+  border-bottom: 4px solid rgba(255, 0, 21, 0.586);
 }
 .links {
   display: flex;
