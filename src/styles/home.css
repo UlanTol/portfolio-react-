@@ -1,0 +1,43 @@
+.home {
+  /* display: flex; */
+  text-align: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 5vh 0;
+  color: white;
+}
+.about h2 {
+  font-size: 100px;
+}
+.prompt {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.prompt p {
+  width: 70%;
+  font-size: 20px;
+  height: 40vh;
+}
+#icons {
+  font-size: 70px;
+}
+.skills {
+  margin: 10vh auto;
+  color: white;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills p {
+  width: 80vw;
+  font-size: 20px;
+}
+.skills h1 {
+  font-size: 80px;
+}
