@@ -7,8 +7,16 @@
   margin: 5vh 0;
   color: white;
 }
+#icons svg {
+  /* width: 50px;
+  height: 50px; */
+  font-size: 50px;
+  color: rgba(130, 194, 250, 0.833);
+}
 .about h2 {
   font-size: 100px;
+  animation: fadeIn;
+  animation-duration: 2s;
 }
 .prompt {
   text-align: center;
@@ -21,6 +29,8 @@
   width: 70%;
   font-size: 20px;
   height: 30vh;
+  animation: fadeIn;
+  animation-duration: 6s;
 }
 .skills {
   margin: 10vh auto;

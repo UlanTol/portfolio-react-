@@ -1,32 +1,45 @@
 import React from "react";
 import EmailIcon from "@mui/icons-material/Email";
 import GitlIcon from "@mui/icons-material/GitHub";
-import CallIcon from "@mui/icons-material/Call";
+import LinkedinIcon from "@mui/icons-material/LinkedIn";
+import "animate.css";
+
 import "./styles/home.css";
 
 const Home = () => {
   return (
     <div className="home">
       <div className="about">
-        <h2>Hi my name is Ulan </h2>
+        <h2>Hi, my name is Ulan </h2>
         <div className="prompt">
-          <p>
-            I'm a student at 55th school.As soon as possible I'm going to be
-            junior web developer. I've been doing web development since May in
-            2022. Now i'am learning these precious and interesting things as
-            HTML\CSS, JS language and React framework and trying create amazing
-            projects like this website) In addition i have big dream, not just a
-            dream but goal in this industry and i think i will get it. If you
-            ask me Why IT and Why exactly web developing here my answer-it has a
-            lot of great interesting things. I love sports so much like
-            voleyball,cycling,MMA and grappling. I'm not afraid of big changes
-            and open to new ideas.
+          <p className="animate__slideInUp">
+            {" "}
+            Little bit about me: First of all i'm a beginner web developer and
+            I've been doing web development since May in 2022. At the moment
+            i'am learning these fascinating things as HTML\CSS, JavaScript and
+            React also trying to create amazing projects like this website) I am
+            a sportsman, almost 6 years I am in sport, have big enough
+            background In grappling and MMA. In addition, have big goals in
+            these industries and hope i will get it. I'm not afraid of big
+            changes and open to new ideas.
           </p>
-          <h4>Жырга</h4>
+          <h4
+            style={{
+              color: "aliceblue",
+              fontSize: "small",
+            }}>
+            Жырга
+          </h4>
           <div id="icons">
-            <EmailIcon />
-            <GitlIcon />
-            <CallIcon />
+            <a href="https://mail.google.com/mail/u/0/#search/tologonov.ulan22%40gmail.com">
+              <EmailIcon />
+            </a>
+            <a href="https://github.com/UlanTol/">
+              <GitlIcon />
+            </a>
+            <a href="https://www.linkedin.com/in/ulan-tologonov-76a391239/">
+              <LinkedinIcon />
+            </a>
           </div>
         </div>
       </div>
